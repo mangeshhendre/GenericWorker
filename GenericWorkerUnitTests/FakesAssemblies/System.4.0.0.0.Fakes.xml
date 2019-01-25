@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.4.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:System.Diagnostics.Fakes.ShimStopwatch">
+            <summary>Shim type of System.Diagnostics.Stopwatch</summary>
+        </member>
+        <member name="M:System.Diagnostics.Fakes.ShimStopwatch.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:System.Diagnostics.Fakes.ShimStopwatch.#ctor(System.Diagnostics.Stopwatch)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:System.Diagnostics.Fakes.ShimStopwatch.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.AllInstances.ElapsedGet">
+            <summary>Sets the shim of Stopwatch.get_Elapsed()</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.AllInstances.ElapsedMillisecondsGet">
+            <summary>Sets the shim of Stopwatch.get_ElapsedMilliseconds()</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.AllInstances.ElapsedTicksGet">
+            <summary>Sets the shim of Stopwatch.get_ElapsedTicks()</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.AllInstances.IsRunningGet">
+            <summary>Sets the shim of Stopwatch.get_IsRunning()</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.AllInstances.Reset">
+            <summary>Sets the shim of Stopwatch.Reset()</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.AllInstances.Restart">
+            <summary>Sets the shim of Stopwatch.Restart()</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.AllInstances.Start">
+            <summary>Sets the shim of Stopwatch.Start()</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.AllInstances.Stop">
+            <summary>Sets the shim of Stopwatch.Stop()</summary>
+        </member>
+        <member name="M:System.Diagnostics.Fakes.ShimStopwatch.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.Diagnostics.Fakes.ShimStopwatch.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.Constructor">
+            <summary>Sets the shim of Stopwatch.Stopwatch()</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.ElapsedGet">
+            <summary>Sets the shim of Stopwatch.get_Elapsed()</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.ElapsedMillisecondsGet">
+            <summary>Sets the shim of Stopwatch.get_ElapsedMilliseconds()</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.ElapsedTicksGet">
+            <summary>Sets the shim of Stopwatch.get_ElapsedTicks()</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.GetTimestamp">
+            <summary>Sets the shim of Stopwatch.GetTimestamp()</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.IsRunningGet">
+            <summary>Sets the shim of Stopwatch.get_IsRunning()</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.Reset">
+            <summary>Sets the shim of Stopwatch.Reset()</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.Restart">
+            <summary>Sets the shim of Stopwatch.Restart()</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.Start">
+            <summary>Sets the shim of Stopwatch.Start()</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.StartNew">
+            <summary>Sets the shim of Stopwatch.StartNew()</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.StaticConstructor">
+            <summary>Sets the shim of Stopwatch.Stopwatch()</summary>
+        </member>
+        <member name="P:System.Diagnostics.Fakes.ShimStopwatch.Stop">
+            <summary>Sets the shim of Stopwatch.Stop()</summary>
+        </member>
+    </members>
+</doc>
